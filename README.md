@@ -21,6 +21,7 @@
 	</a>
 </p>
 
+> This is an 'internal' fork of the [OSS version of Madge](https://github.com/pahen/madge) to enable the use of custom `dependencyFilters` to generate `n`-level depth graphs. For example to graph all modules under a single scope, for example `@ux`.
 
 **Madge** is a developer tool for generating a visual graph of your module dependencies, finding circular dependencies, and give you other useful info. Joel Kemp's awesome [dependency-tree](https://github.com/mrjoelkemp/node-dependency-tree) is used for extracting the dependency tree.
 
